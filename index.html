@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> First Meeting </title>
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1> First Meeting </h1>
+            <nav>
+                <ul>
+                    <li> <a href="#specifics">Speficiations</a> </li>
+                    <li> <a href="#attendance">Attendance</a> </li>
+                    <li> <a href="#topics">Topics</a> </li>
+                    <li> <a href="#graphs&media">Graphs & Media</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="specifics">
+                <h2> Meeting Specifics </h2>
+                <h3> Date: 2024-06-01 </h3>
+                <p> <i>Time:</i> 01:00 AM - 03:00 AM </p>
+                <p> Location: Geisel Library </p>
+                <hr>
+            </section>
+            <section id="attendance">
+                <h2> Attendance </h2>
+                <ul>
+                    <li><strong>Iban R. </strong>(Project Lead)</li>
+                    <li><em>Iban A.</em>(Lead Developer)</li>
+                    <li><span>Iban B.</span>(UI Designer)</li>
+                    <li><div>Iban C.</div>(Backend Developer)</li>
+                    <li>Iban D.</li>
+                </ul>
+                <br>
+            </section>
+
+            <section id="topics">
+                <h2> Topics to Discuss</h2>
+                <div>
+                    <h3> Timeline </h3>
+                    <p> We will be proceed with following timeline:</p>
+                    <img src="timeline.png" width="800" alt="Timeline">
+                </div>
+                <div>
+                    <h3> Unfinished Topics </h3>
+                    <p> We need to discuss about the uncomiing shortage of money</p>
+                </div>
+
+                <div>
+                    <h3> New Topics</h3>
+                    <p> We need to discuss about the new features for the game.</p>
+
+                </div>
+                <div>
+                    <h2> Project Goals</h2>
+                    <ol>
+                        <li> Goal 1: <b>Be mindful</b> during meetings. <i> Please no food</i> </li>
+                        <li> Goal 2: <b>Communicate effectively</b> with team members. </li>
+                        <li> Goal 3: <b>Respect everyone's time</b> and opinions. </li>
+                    </ol>
+                </div>
+            </section>
+
+
+            <section id="graphs&media">
+                <h2> Graphs & Media</h2>
+                <h3> Graphs </h3>
+                <p> Below is a graph showing the expected project performance progress over time: </p>
+                <img src="progress_graph.png" alt="Project Progress Graph">
+                <h3> Media </h3>
+                <p> Here is an audio recording of our meeting: </p>
+                <audio controls>
+                    <source src="meeting_audio.mp3" type="audio/mpeg">
+                </audio>
+                
+                <p> Additionally, here is a video summarizing our meeting: </p>
+                <video controls>
+                    <source src="meeting_video.mp4" type="video/mp4">
+                </video>
+            </section>
+
+            <section id="questions">
+                <h2> Questions & Answers </h2>
+                <details>
+                    <summary> What is the main goal of our project? </summary>
+                    <p> The main goal of our project is to develop a fun game that intergrates AI and user experience!. </p>
+                </details>
+            </section>
+
+
+            <section id="forms">
+                <h2> Forms </h2>
+                <form>
+                    <fieldset>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+
+                        <label for="available_dates">Available Dates:</label>
+                        <input type="date" id="available_dates" name="available_dates">
+
+                        <p> Did you have fun in this meeting?</p>
+                        <input type="radio" id="yes" name="fun" value="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="fun" value="no">
+                        <label for="no">No</label>
+
+                        <br>
+
+                        <input type ="checkbox" id="follow-up" name="follow-up">
+                        <label for="follow-up">I would like to have a follow-up meeting</label>
+
+                        <br>
+
+                        <label for="comments_section"> Comments:</label>
+                        <textarea id="comments_section" name="comments_section"></textarea>
+
+                        <br>
+
+                        <label for="mood"> How are you feeling about the project?</label>
+                        <input list="moods" id="mood" name="mood">
+                        <datalist id="moods">
+                            <option value="Excited">
+                            <option value="Nervous">
+                            <option value="Confident">
+                            <option value="Overwhelmed">
+                        </datalist>
+
+                        <br>
+
+                        <label for="favorite_language"> What is your favorite programming language?</label>
+                        <select id="favorite_language" name="favorite_language">
+                            <option value="Python">Python</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Java">Java</option>
+                            <option value="C++">C++</option>
+                        </select>
+
+                        <br>
+
+                        <button type="reset">Reset</button>
+
+                        
+                    </fieldset>
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <p> The end. </p>
+        </footer>
+    </body>
+
+</html>
